@@ -2,7 +2,7 @@
 gitaccounts="moabukar"
 # first
 declare -A github
-github[mohamed.abukar]='moabukar'
+github[mohamedabukar]='moabukar'
 
 
 # git config function
