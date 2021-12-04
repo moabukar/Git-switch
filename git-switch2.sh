@@ -1,5 +1,5 @@
 #!/bin/bash
-gitaccounts="mohamed.abukar"
+gitaccounts="moabukar"
 # first
 declare -A github
 github[mohamed.abukar]='moabukar'
@@ -11,6 +11,8 @@ function gitconfig_switch() {
         GIT_URL=$2
         USER=$3
         sed -r -i "/remote \"$REMOTE\"/,+2s/(.*)+@$GIT_URL/\turl = https:\/\/$USER@$GIT_URL/" ~/.gitconfig
+        sed -i -e 's/name = moabukar/'
+        sed -i -e 's'
 }
 
 select USER in $gitaccounts; do

@@ -1,0 +1,3 @@
+[user]
+        name = moabukar
+        email = mo-abukar10@hotmail.com
