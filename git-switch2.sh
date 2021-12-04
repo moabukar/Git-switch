@@ -11,6 +11,7 @@ function gitconfig_switch() {
         GIT_URL=$2
         USER=$3
         sed -i -e 's/"name = moabukar"/test/g' ~/.gitconfig
+        #sed -r -i "/remote \"$REMOTE\"/,+2s/(.*)+@$GIT_URL/\turl = https:\/\/$USER@$GIT_URL/" ~/.gitconfig
         #sed -i -e 's'
 }
 
